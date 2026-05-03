@@ -1,0 +1,82 @@
+/* Reset default margin, padding, and border */
+body, header, h1, h2, p, section {
+    margins: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Background */
+body {
+    background-color: #e6f2ff;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #003366
+}
+
+/* Header */
+header {
+    background-color: #005b96;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+/* Section styling */
+section {
+    max-width: 900px;
+    margin: 10px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings */
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #005b96;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #003366;
+    font-style:italic;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+/* Lists */
+ul {
+    margin-left: 25px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    list-style: square;
+}
+
+/* Images */
+img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+/* Image citations */
+.citation {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
